@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    background: linear-gradient(90deg, rgb(5,7,5),rgb(22, 24, 22),rgb(27, 27, 29),rgb(26, 24, 24));
+    color: white;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+.container{
+    display:flex;
+    margin-left:100px;
+}
+.formInput{
+    margin-left: 100px;
+}
+.formPreview{
+    margin-left: 500px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding:7px;
+    width:150%;
+}
+label{
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:larger;
+    font-family:'Times New Roman', Times, serif;
+     
+}
+h5{
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Transport Billing System</h1>
+    <div class="container">
+        <div class="formInput">
+            <form>
+                <label>Company Name</label><br>
+                <input type="text" onkeyup="toPreviewInputData()" class="companyNameInput" name="companyName"
+                    placeholder="Enter Company Name" /><br>
+                <label>company TagLine</label><br>
+                <input type="text" onkeyup="toPreviewInputData()" class="companyTagLineInput" name="companyTagLine"
+                    placeholder="Enter company TagLine" /><br>
+                <label>company Address</label><br>
+                <input type="text" onkeyup="toPreviewInputData()" class="companyAddressInput" name="companyAddress"
+                    placeholder="Enter company Address" /><br>
+                <label>Biller Name</label><br>
+                <input type="text" onkeyup="toPreviewInputData()" class="billerNameInput" name="billerName"
+                    placeholder="Enter the Biller Name" /><br>
+                <label>Start Date</label><br>
+                <input type="date" onkeyup="toPreviewInputData()" class="startDateInput" name="starDate" /><br>
+                <label>End Date</label><br>
+                <input type="date" onkeyup="toPreviewInputData()" class="endDateInput" name="endDate" /><br>
+                <label>Vehicle Number</label><br>
+                <input type="text" onkeyup="toPreviewInputData()" class="vehicleNumberInput" name="vehicleNumber"
+                    placeholder="Enter the Vehicle No." /><br>
+                <label>Goods Descriptions</label><br>
+                <input type="text" onkeyup="toPreviewInputData()" class="descriptionsInput" name="goodsDescription"
+                    placeholder="Enter Goods Descriptions" /><br>
+                <label>Net weight</label><br>
+                <input type="number" onkeyup="toPreviewInputData()" class="netWeightInput" name="weight"
+                    placeholder="Enter the Net weight" /><br>
+                <label>Total Amount</label><br>
+                <input type="number" onkeyup="toPreviewInputData()" class="totalAmountInput" name="amount"
+                    placeholder="Enter the Amount" /><br>
+            </form>
+        </div>
+        <div class="formPreview">
+            <h1 class="companyNameView">xyz</h1>
+            <h5 class="companyTagLineView">sdflkajf</h5>
+            <p class="companyAddressView">djskfj</p>
+            <p class="billerNameView">ajsldfkj</p>
+            <p class="startDateView">aslkdfj</p>
+            <p class="endDateView">alfj</p>
+            <p class="vehicleNumberView">kjdslfj</p>
+            <p class="descriptionsView">jaszldfj</p>
+            <p class="netWeightView">jkasdjflk</p>
+            <p class="totalAmountView">jasdfjalkdf</p>
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
